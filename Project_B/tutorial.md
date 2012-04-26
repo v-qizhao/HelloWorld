@@ -1,7 +1,6 @@
 
-<STRIKE> asdfas </STRIKE>
 
-
+/<!-- strike:8-19,21-27 -->
 ````HTML
 	<div class="page">
 	  <div class="header">
