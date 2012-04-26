@@ -1,5 +1,5 @@
-         <!-- strike:8-19,21-27 -->
-	````HTML
+<!-- strike:8-19,21-27 -->
+````HTML
 	<div class="page">
 	  <div class="header">
 	    <div class="title">
@@ -29,4 +29,4 @@ EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
 	    </asp:Menu> 
 	  </div>
 	</div>
-	````
+````
