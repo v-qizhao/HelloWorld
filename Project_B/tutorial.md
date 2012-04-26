@@ -1,4 +1,3 @@
-<!-- strike:8-19,21-27 -->
 
 <STRIKE> asdfas </STRIKE>
 
@@ -34,4 +33,3 @@ EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
 	  </div>
 	</div>
 ````
-</S>
