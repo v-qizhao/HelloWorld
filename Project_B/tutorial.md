@@ -1,6 +1,6 @@
 <!-- strike:8-19,21-27 -->
 
-<S> asdfas </S>
+<STRIKE> asdfas </STRIKE>
 
 
 ````HTML
