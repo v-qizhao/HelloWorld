@@ -1,12 +1,14 @@
 <del> abc </del>
 
+<del>
+
 <!-- strike:8-19,21-27 -->
 ````HTML
 	<div class="page">
 	  <div class="header">
 	    <div class="title">
 	      <h1>
-	        <del> My ASP.NET Application </del>
+	         My ASP.NET Application 
 	      </h1>
 	    </div>   
 <div class="loginDisplay">
@@ -32,3 +34,4 @@ EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
 	  </div>
 	</div>
 ````
+</del>
