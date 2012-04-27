@@ -1,6 +1,7 @@
+<del> abc </del>
 
-/ <!-- strike:8-19,21-27 -->
-/ ````HTML
+<!-- strike:8-19,21-27 -->
+````HTML
 	<div class="page">
 	  <div class="header">
 	    <div class="title">
