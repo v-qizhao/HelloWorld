@@ -1,8 +1,7 @@
 <del> abc </del>
 
-<del>
 
-<!-- strike:8-19,21-27 -->
+<!-- del:8-19,21-27 -->
 ````HTML
 	<div class="page">
 	  <div class="header">
@@ -34,5 +33,3 @@ EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
 	  </div>
 	</div>
 ````
-
-</del>
