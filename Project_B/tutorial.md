@@ -6,7 +6,7 @@
 	  <div class="header">
 	    <div class="title">
 	      <h1>
-	        My ASP.NET Application
+	        <del> My ASP.NET Application </del>
 	      </h1>
 	    </div>   
 <div class="loginDisplay">
