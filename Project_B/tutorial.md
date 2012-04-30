@@ -1,7 +1,7 @@
 <del> abc </del>
 
 
-<!-- del:8-19,21-27 -->
+<del>
 ````HTML
 	<div class="page">
 	  <div class="header">
@@ -33,3 +33,4 @@ EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
 	  </div>
 	</div>
 ````
+</del>
