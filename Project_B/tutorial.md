@@ -19,7 +19,7 @@
 ````
 
 
-![E2-T3-4_CS(Highlighted)](./images/E2-T3-4_CS(Highlighted&gt).png?raw=true "E2-T3-4_CS(Highlighted)")
+![E2-T3-4_CS(Highlighted)](./images/E2-T3-4_CS(Highlighted\).png?raw=true "E2-T3-4_CS(Highlighted)")
 
 
 ![E2-T3-4_CS(Highlighted)](./images/E2-T3-4_CS_Highlighted.png?raw=true "E2-T3-4_CS(Highlighted)")
