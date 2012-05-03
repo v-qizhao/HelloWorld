@@ -1,36 +1,19 @@
-<del> abc </del>
-
-
-<del>
-````HTML
-	<div class="page">
-	  <div class="header">
-	    <div class="title">
-	      <h1>
-	         My ASP.NET Application 
-	      </h1>
-	    </div>   
-<div class="loginDisplay">
-	    <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
-	      <AnonymousTemplate>
-	        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
-	      </AnonymousTemplate>
-	      <LoggedInTemplate>
-	        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
-	        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" 
-LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
-	      </LoggedInTemplate>
-	    </asp:LoginView>
-	  </div>
-	  <div class="clear hideSkiplink">
-	    <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" 
-EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
-	      <Items>
-	        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
-	        <asp:MenuItem NavigateUrl="~/About.aspx" Text="About"/>
-	      </Items>
-	    </asp:Menu> 
-	  </div>
-	</div>
+````VB.NET
+	Public Class MvcApplication
+	  Inherits System.Web.HttpApplication
+	  ...
+	  Private Shared Sub ConfigureTraceListener()
+	    Dim enableTraceListener As Boolean = False
+	    Dim enableTraceListenerSetting As String = RoleEnvironment.GetConfigurationSettingValue("EnableTableStorageTraceListener")
+	    If Boolean.TryParse(enableTraceListenerSetting, enableTraceListener) Then
+	      If enableTraceListener Then
+	        Dim listener As New AzureDiagnostics.TableStorageTraceListener("Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString") With {.Name = "TableStorageTraceListener"}
+	        System.Diagnostics.Trace.Listeners.Add(listener)
+	        System.Diagnostics.Trace.AutoFlush = True
+	      Else
+	        System.Diagnostics.Trace.Listeners.Remove("TableStorageTraceListener")
+	      End If
+	    End If
+	  End Sub
+	End Class
 ````
-</del>
