@@ -19,4 +19,4 @@
 ````
 
 
-![E2-T3-4_CS(Highlighted)](./images/E2-T3-4_CS(Highlighted&lt).png?raw=true "E2-T3-4_CS(Highlighted)")
+![E2-T3-4_CS(Highlighted)](./images/E2-T3-4_CS(Highlighted&gt).png?raw=true "E2-T3-4_CS(Highlighted)")
